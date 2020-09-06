@@ -15,6 +15,7 @@ namespace Calculator
 
                 var number1 = GetInput();
 
+
                 string action1 = "+-*/";
                 List<string> actionList = new List<string>();
                 actionList.AddRange(action1.Select(c => c.ToString()));
