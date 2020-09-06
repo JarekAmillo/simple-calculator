@@ -12,6 +12,7 @@ namespace Calculator
             {
                 Console.WriteLine("Program - Kalkulator \n");
                 Console.WriteLine("Podaj pierwszą liczbę:");
+
                 var number1 = GetInput();
 
                 string action1 = "+-*/";
